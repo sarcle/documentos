@@ -1,0 +1,138 @@
+tablas para carga masiva.
+
+
+1.-  t_establecimientos
+2.-  t_domicilio_establecimiento.
+3.-  t_ruta_establecimiento
+4.-  t_domicilio_cliente.
+5.-  t_cliente
+6.-  t_establecimiento_serie (solo si se agregan o quitan algunos establecimientos)
+7.- t_establecimiento_cierre
+
+Tablas de solo borrar datos y dejar en blanco.
+1.- t_ticket
+2.- t_usuario (dejar un usuario en queretaro para pruebas)
+3.- t_documento
+4.- t_documento_pendiente
+5.- t_documento_folio
+6.- t_documento_cfdi
+
+Tablas fijas.
+
+1.- t_estado
+2.- t_pais
+3.- c_tipo_establecimiento
+4.- c_iva_establecimiento
+5.- c_status_ticket
+6.- t_emisor
+7.- t_domicilio_pais_sin_estado
+8.- c_tipo_documento
+9.- c_forma_pago
+8.- c_cond_pago
+
+
+
+tablas 
+
+
+1.- c_cfdi_cer
+2.  c_cfdi_cer_pac
+3.- c_estado
+4.- 
+
+
+
+
+
+
+condiciones de pago -- CONTADO
+forma de pago --- PAGO EN UNA SOLA EXIBICION
+c_status_ticket --- facturado
+
+c_tipo_documento ------  FACTURA
+				------- NOTA DE CREDITO
+
+
+
+
+
+
+Desactivación de todas las claves foráneas:
+
+SET FOREIGN_KEY_CHECKS = 0;
+Activación:
+
+SET FOREIGN_KEY_CHECKS = 1;
+
+
+revisar
+7088 --  correo con coma
+7114  ---  2 correos
+7325  -- razon social
+11711 -- correo
+15290 -- rfc
+15364 --- rfc
+15551  -- 2 correos
+16848 --- rfc
+16931 --- correo con coma
+17667  --- 2 correos	
+20325 --- Razón Social y  correo
+20343 --- rfc
+24757  --- correo con coma
+25523  --- correo con coma
+34056  --- razon social	
+36691  --- correo con coma
+48811 --- 2 correos	
+72827  -- 2 correos				
+
+poner comas en el nombre
+10632
+13082
+13549
+15290
+15364
+16848
+23221
+23517
+24312
+7325
+20343
+24312
+31678
+34056  --- coma en HEREDIA, COSTA RICA
+35094
+47356 -- SONRISITAS, S.C.
+52775
+76429
+74637
+74639
+74677
+74679
+74691
+74692
+74713
+74715
+74718  -- UXPANAPA, VERACRUZ	
+74765
+74775
+74800
+74816
+74829
+74833
+74835
+74842
+74848
+74861
+74863
+74879
+74891
+74895
+74901
+74902
+74931
+74932
+74941
+74945
+74947
+74950
+
